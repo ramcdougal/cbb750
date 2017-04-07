@@ -12,7 +12,7 @@ ny = 1200
 dx = (xhi - xlo) / nx
 dy = (yhi - ylo) / ny
 
-iter_limit = 200
+iter_limit = 500
 set_threshold = 2
 
 def point_in_set(x, y):
