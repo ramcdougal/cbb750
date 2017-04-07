@@ -6,9 +6,9 @@ import time
 xlo = -2
 ylo = -1
 yhi = 1
-xhi = 1
-nx = 1800
-ny = 1200
+xhi = 0.5
+nx = 200
+ny = 160
 dx = (xhi - xlo) / nx
 dy = (yhi - ylo) / ny
 
