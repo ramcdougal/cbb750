@@ -49,4 +49,8 @@ def weasel_program(mutation_rate=0.05, initial='                            '):
 	print '%3d  %s  (%d)' % (generation, parent, score)
 
 if __name__ == '__main__':
+	import time
+	start = time.time()
 	weasel_program()
+	if communicator.rank == 0:
+		print 'evolution time:', time.time() - start
