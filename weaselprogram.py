@@ -52,5 +52,4 @@ if __name__ == '__main__':
 	import time
 	start = time.time()
 	weasel_program()
-	if communicator.rank == 0:
-		print 'evolution time:', time.time() - start
+	print 'evolution time:', time.time() - start
